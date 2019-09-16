@@ -1,0 +1,13 @@
+// MyAidl.aidl
+package com.com.test.aidl;
+import com.com.test.aidl.Person;
+// Declare any non-default types here with import statements
+
+interface MyAidl {
+    /**
+     * Demonstrates some basic types that you can use as parameters
+     * and return values in AIDL.
+     */
+    void addPerson(in Person person);
+    List<Person> getPersonList();
+}
